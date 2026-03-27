@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+}
+
+
+.gallery {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 1;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+
+  border: 2px solid rgba(255,255,255,0.3);
+  box-shadow: 0 0 30px rgba(79, 70, 229, 0.6);
+
+  z-index: 3;
+}
+
+
+.center img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+.center {
+  transition: 0.4s;
+}
+
+.center:hover {
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.item {
+  position: absolute;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 3px solid white;
+}
+.item img:hover {
+  transform: scale(1.2);
+}
