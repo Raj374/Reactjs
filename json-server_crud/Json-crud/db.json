@@ -1,0 +1,96 @@
+{
+  "product": [
+    {
+      "id": "M101",
+      "p_name": "Inception",
+      "p_price": 150,
+      "p_stock": 50,
+      "p_image": "https://images.pexels.com/photos/33129/popcorn-movie-party-entertainment.jpg",
+      "p_category": "Sci-Fi",
+      "p_description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
+    },
+    {
+      "id": "M102",
+      "p_name": "The Dark Knight",
+      "p_price": 120,
+      "p_stock": 40,
+      "p_image": "https://images.pexels.com/photos/2510428/pexels-photo-2510428.jpeg",
+      "p_category": "Action",
+      "p_description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+    },
+    {
+      "id": "M103",
+      "p_name": "Interstellar",
+      "p_price": 140,
+      "p_stock": 60,
+      "p_image": "https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg",
+      "p_category": "Sci-Fi",
+      "p_description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+    },
+    {
+      "id": "M104",
+      "p_name": "The Hangover",
+      "p_price": 100,
+      "p_stock": 80,
+      "p_image": "https://images.pexels.com/photos/7991158/pexels-photo-7991158.jpeg",
+      "p_category": "Comedy",
+      "p_description": "Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing."
+    },
+    {
+      "id": "M105",
+      "p_name": "Forrest Gump",
+      "p_price": 110,
+      "p_stock": 30,
+      "p_image": "https://images.pexels.com/photos/3379934/pexels-photo-3379934.jpeg",
+      "p_category": "Drama",
+      "p_description": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate and other historical events unfold through the perspective of an Alabama man with an IQ of 75."
+    },
+    {
+      "id": "M106",
+      "p_name": "Die Hard",
+      "p_price": 90,
+      "p_stock": 45,
+      "p_image": "https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg",
+      "p_category": "Action",
+      "p_description": "An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles."
+    },
+    {
+      "id": "M107",
+      "p_name": "Superbad",
+      "p_price": 95,
+      "p_stock": 55,
+      "p_image": "https://images.pexels.com/photos/1089194/pexels-photo-1089194.jpeg",
+      "p_category": "Comedy",
+      "p_description": "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry."
+    },
+    {
+      "id": "M108",
+      "p_name": "The Shawshank Redemption",
+      "p_price": 130,
+      "p_stock": 70,
+      "p_image": "https://images.pexels.com/photos/2361099/pexels-photo-2361099.jpeg",
+      "p_category": "Drama",
+      "p_description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+    },
+    {
+      "id": "M109",
+      "p_name": "The Matrix",
+      "p_price": 135,
+      "p_stock": 65,
+      "p_image": "https://images.pexels.com/photos/5256816/pexels-photo-5256816.jpeg",
+      "p_category": "Sci-Fi",
+      "p_description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+    },
+    {
+      "id": "M110",
+      "p_name": "Gladiator",
+      "p_price": 125,
+      "p_stock": 40,
+      "p_image": "https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg",
+      "p_category": "Action",
+      "p_description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
+    }
+  ],
+  "cart": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
